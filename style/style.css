@@ -1,0 +1,52 @@
+*{margin: 0;padding: 0;}
+
+.rainbow{
+    height: 500px;
+    width: 1000px;
+    overflow: hidden;
+    margin: 100px auto;
+}
+.rainbow div{
+    overflow: hidden;
+    border-radius: 50%;
+}
+.rainbow > div{
+    width: 1000px;
+    height: 1000px;
+    background: #f00;
+}
+.rainbow > div > div{
+    background: #f60;
+    height: 950px;
+    margin: 30px;
+}
+.rainbow > div > div > div{
+    background: #f90;
+    height: 900px;
+    margin: 30px;
+}
+.rainbow > div > div > div > div{
+    background: #00ff54;
+    height: 850px;
+    margin: 30px;
+}
+.rainbow > div > div > div > div > div{
+    background: #00eaff;
+    height: 800px;
+    margin: 30px;
+}
+.rainbow > div > div > div > div > div > div{
+    background: #000cff;
+    height: 750px;
+    margin: 30px;
+}
+.rainbow > div > div > div > div > div > div > div{
+    background: #8a00ff;
+    height: 700px;
+    margin: 30px;
+}
+.rainbow > div > div > div > div > div > div > div > div{
+    background: #fff;
+    height: 650px;
+    margin: 30px;
+}
